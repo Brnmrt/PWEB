@@ -1,0 +1,222 @@
+﻿@page "/produtos"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@using Microsoft.AspNetCore.Identity
+
+@rendermode InteractiveServer
+
+@inject IDbContextFactory<ApplicationDbContext> DbFactory
+
+@implements IAsyncDisposable
+
+<PageTitle>Listagem</PageTitle>
+
+<h1>Listagem de Produtos</h1>
+
+<p><a title="Novo registo!" href="produtos/create"><img src="/img/novo.png" style="height:50px" /></a></p>
+
+<div>
+    <label for="categoriaFilter">Categoria:</label>
+    <select id="categoriaFilter" @bind="categoriaFilter">
+        <option value="">Todas</option>
+        @foreach (var categoria in categorias)
+        {
+            <option value="@categoria.Id">@categoria.Nome</option>
+        }
+    </select>
+
+    <label for="marcaFilter">Marca:</label>
+    <select id="marcaFilter" @bind="marcaFilter">
+        <option value="">Todas</option>
+        @foreach (var marca in marcas)
+        {
+            <option value="@marca.Id">@marca.Nome</option>
+        }
+    </select>
+
+    <label for="classificacaoFilter">Classificação:</label>
+    <select id="classificacaoFilter" @bind="classificacaoFilter">
+        <option value="">Todas</option>
+        @foreach (var classificacao in classificacoes)
+        {
+            <option value="@classificacao.Id">@classificacao.Nome</option>
+        }
+    </select>
+
+    <button @onclick="AplicarFiltros">Aplicar Filtros</button>
+</div>
+
+<QuickGrid Items="@produtosList.AsQueryable()" @ref="refgrid" Pagination="@pagination">
+    <PropertyColumn Property="produto => produto.Id" Sortable="true"/>
+    <TemplateColumn Context="produto">
+        @if (produto.Imagem is not null)
+        {
+            <img title="Imagem Actual: @produto.UrlImagem" id="imagePreview"
+                 class="img-thumbnail  mt-2" src="data:image/*;base64,@(Convert.ToBase64String(produto.Imagem))" style="width:100px">
+        }
+        else
+        {
+            <img id="imagePreview" class="img-thumbnail mt-2" src="img/noproductstrans.png" style="width:100px;">
+        }
+    </TemplateColumn>
+
+    <PropertyColumn Property="produto => produto.Nome" Sortable="true">
+        <ColumnOptions>
+            <div class="search-box">
+                <input type="search" autofocus @onchange="PesquisaProduto" placeholder="Produto nome..." />
+            </div>
+        </ColumnOptions>
+    </PropertyColumn>
+    <PropertyColumn Property="produto => produto.Detalhe" />
+
+    <TemplateColumn Title="Disponível" Context="produto">
+        <input type="checkbox" @bind="produto.Disponivel" @bind:after="() => AtualizarDisponibilidade(produto)"  />
+    </TemplateColumn>
+
+    <PropertyColumn Title="Categoria" Property="produto => produto.categoria.Nome" Sortable="true" />
+
+    <PropertyColumn Title="Marca" Property="produto => produto.marca.Nome" Sortable="true" />
+    <PropertyColumn Title="Classificação" Property="produto => produto.classificacao.Nome" Sortable="true" />
+
+    <PropertyColumn Title="Stock" Property="produto => produto.EmStock"  Sortable="true" />
+    <PropertyColumn Title="Preço" Property="produto => produto.Preco" Sortable="true" />
+
+
+    <TemplateColumn Context="produto">
+        <a title="Editar" href="@($"produtos/edit?id={produto.Id}")"><img title="Editar" src="/img/editicon.png" style="height:30px" /></a>
+        <a title="Detalhes" href="@($"produtos/details?id={produto.Id}")"><img title="Detalhes" src="/img/detailsicon.png" style="height:30px" /></a>
+        <a title="Apagar" href="@($"produtos/delete?id={produto.Id}")"><img title="Apagar" src="/img/deleteicon.png" style="height:30px" /></a>
+    </TemplateColumn>
+</QuickGrid>
+
+<div class="page-size-chooser">
+    Produtos:
+    <select @bind="@pagination.ItemsPerPage">
+        <option>5</option>
+        <option>10</option>
+        <option>25</option>
+        <option>50</option>
+        
+    </select>
+</div>
+<div class="card-footer"><Paginator State="@pagination" /></div>
+
+@code {
+    QuickGrid<Produto>? refgrid;
+
+    // Pagination
+    PaginationState pagination = new PaginationState { ItemsPerPage = 50 };
+
+    List<Produto> produtosList = new();
+    IQueryable<Produto>? produtosQueryable;
+
+    private ApplicationDbContext context = default!;
+
+    // Filtros
+    private string categoriaFilter = string.Empty;
+    private string marcaFilter = string.Empty;
+    private string classificacaoFilter = string.Empty;
+
+    private List<Categoria> categorias = new();
+    private List<Marca> marcas = new();
+    private List<Classificacao> classificacoes = new();
+
+    protected override async void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+        produtosQueryable = Enumerable.Empty<Produto>().AsQueryable();
+
+        produtosList = context.Produtos
+                    .Include("categoria")
+                    .Include("classificacao")
+                    .Include("marca")
+                    .OrderBy(x => x.categoria.Nome)
+                    .ThenBy(a => a.Nome)
+                    .ToList();
+
+        categorias = context.Categorias.ToList();
+        marcas = context.Marcas.ToList();
+        classificacoes = context.Classificacoes.ToList();
+       
+    }
+
+    
+    
+
+    
+
+    private async Task AtualizarDisponibilidade(Produto produto)
+    {
+        try
+        {
+            var produtoAtualizado = await context.Produtos.FindAsync(produto.Id);
+            if (produtoAtualizado is not null)
+            {
+                produtoAtualizado.Disponivel = produto.Disponivel;
+                await context.SaveChangesAsync();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao atualizar disponibilidade: {ex.Message}");
+        }
+    }
+
+    private void AplicarFiltros()
+    {
+        var query = context.Produtos
+            .Include("categoria")
+            .Include("classificacao")
+            .Include("marca")
+            .AsQueryable();
+
+        if (!string.IsNullOrEmpty(categoriaFilter))
+        {
+            query = query.Where(p => p.categoria.Id == int.Parse(categoriaFilter));
+        }
+
+        if (!string.IsNullOrEmpty(marcaFilter))
+        {
+            query = query.Where(p => p.marca.Id == int.Parse(marcaFilter));
+        }
+
+        if (!string.IsNullOrEmpty(classificacaoFilter))
+        {
+            query = query.Where(p => p.classificacao.Id == int.Parse(classificacaoFilter));
+        }
+
+        produtosList = query.OrderBy(x => x.categoria.Nome)
+                            .ThenBy(a => a.Nome)
+                            .ToList();
+
+        
+    }
+
+    void PesquisaProduto(ChangeEventArgs e)
+    {
+        if (!string.IsNullOrEmpty(e.Value!.ToString()))
+        {
+            var result = produtosQueryable.Where(c => c.Nome!.Contains(e.Value!.ToString()!,
+            StringComparison.CurrentCultureIgnoreCase)).ToList();
+            produtosQueryable = Enumerable.Empty<Produto>().AsQueryable();
+            if (result.Count == 0)
+            {
+                return;
+            }
+
+            if (result.Any())
+            {
+                foreach (var produto in result.OrderBy(_ => _.Id))
+                    produtosQueryable = produtosQueryable.Concat(new[] { produto }.AsQueryable());
+            }
+        }
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

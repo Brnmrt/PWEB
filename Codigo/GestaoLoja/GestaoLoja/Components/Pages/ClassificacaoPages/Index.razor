@@ -1,0 +1,90 @@
+﻿@page "/classificacoes"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@implements IAsyncDisposable
+@rendermode InteractiveServer
+
+<PageTitle>Classificacoes</PageTitle>
+
+<h1>Listagem de Classificacoes de Produtos</h1>
+
+<p>
+    <a title="Nova classificacao!" href="classificacoes/create"><img src="/img/novo.png" style="height:50px" /></a>
+</p>
+
+<QuickGrid Class="table" Items="context.Classificacoes.OrderBy(x => x.Ordem)" Pagination="@pagination">
+
+    <TemplateColumn Context="classificacao">
+        @if (classificacao.Imagem is not null)
+        {
+            <img title="Imagem Actual: @classificacao.UrlImagem" id="imagePreview" class="img-thumbnail  mt-2" src="data:image/*;base64,@(Convert.ToBase64String(classificacao.Imagem))" style="width:100px">
+        }
+        else
+        {
+            <img id="imagePreview" class="img-thumbnail mt-2" src="img/noproductstrans.png" style="width:100px;">
+        }
+
+    </TemplateColumn>
+
+    <PropertyColumn Property="classificacao => classificacao.Nome" />
+
+    <PropertyColumn Property="classificacao => classificacao.Ordem" />
+
+    <TemplateColumn Context="classificacao">
+        <a title="Editar" href="@($"classificacoes/edit?id={classificacao.Id}")"><img title="Editar" src="/img/editicon.png" style="height:30px" /></a> |
+        <a title="Detalhes" href="@($"classificacoes/details?id={classificacao.Id}")"><img title="Detalhes" src="/img/detailsicon.png" style="height:30px" /></a> |
+        @if (canDelete(classificacao.Id))
+        {
+            <a title="Apagar" href="@($"classificacoes/delete?id={classificacao.Id}")"><img title="Apagar" src="/img/deleteicon.png" style="height:30px" /></a>
+        }
+        else
+        {
+            <span title="Apagar" style="cursor: not-allowed; opacity: 0.5;">
+                <img title="Apagar" src="/img/deleteicon.png" style="height:30px" />
+            </span>
+        }
+    </TemplateColumn>
+</QuickGrid>
+
+<div class="page-size-chooser">
+    Classificações:
+    <select @bind="@pagination.ItemsPerPage">
+        <option>5</option>
+        <option>10</option>
+        <option>15</option>
+    </select>
+</div>
+<div class="card-footer"><Paginator State="@pagination" /></div>
+
+@code {
+
+    PaginationState pagination = new PaginationState { ItemsPerPage = 5 };
+
+    ApplicationDbContext context = default!;
+    
+    List<int?> comProdutos;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+        comProdutos = context.Produtos
+            .Select(p => p.ClassificacaoId)
+            .Distinct()
+            .ToList();
+    }
+
+    private bool canDelete(int id)
+    {
+        return !comProdutos.Contains(id);
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

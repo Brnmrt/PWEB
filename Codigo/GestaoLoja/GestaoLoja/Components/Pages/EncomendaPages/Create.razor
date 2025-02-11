@@ -1,0 +1,101 @@
+﻿@page "/encomenda/create"
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Criar Registo</PageTitle>
+
+<h1>Criar Registo</h1>
+
+<h2>Encomenda</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Encomenda" OnValidSubmit="AddEncomenda" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="userid" class="form-label">Email do Cliente:</label>
+                <InputText id="userid" @bind-Value="TempEmail" class="form-control" />
+                <ValidationMessage For="() => TempEmail" class="text-danger" />
+            </div>        
+            <div class="mb-3">
+                <label for="produtoid" class="form-label">ProdutoId:</label> 
+                <InputNumber id="produtoid" @bind-Value="Encomenda.ProdutoId" class="form-control" /> 
+                <ValidationMessage For="() => Encomenda.ProdutoId" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="quantidade" class="form-label">Quantidade:</label> 
+                <InputNumber id="quantidade" @bind-Value="Encomenda.Quantidade" class="form-control" /> 
+                <ValidationMessage For="() => Encomenda.Quantidade" class="text-danger" /> 
+            </div>        
+                   
+            @* <button type="submit" class="btn btn-primary">Create</button> *@
+
+            <div>
+                <button type="submit" class="btn btn-primary">
+                    <img title="Gravar" src="/img/saveicon.png" style="height:30px" />
+                </button>
+                <a href="/encomenda" type="button" class="btn btn-outline-secondary">
+                    <img title="Recuar" src="/img/backicon.png" style="height:30px" />
+                </a>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private string TempEmail { get; set; }
+    [SupplyParameterFromForm]
+    private Encomenda Encomenda { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddEncomenda()
+    {
+        using var context = DbFactory.CreateDbContext();
+        string? userid = findIDByEmail();
+        if(userid == null)
+        {
+            NavigationManager.NavigateTo("/encomenda/create");
+        }
+
+        Encomenda.UserId = userid;
+        Encomenda.Estado = "Pendente";
+        Encomenda.Enviada = false;
+        Encomenda.DataCriacao = DateTime.Now;
+
+        
+
+        Produto produto = context.Produtos.FirstOrDefault(p => p.Id == Encomenda.ProdutoId);
+        if(produto == null)
+		{
+			NavigationManager.NavigateTo("/encomenda/create");
+		}
+
+        Encomenda.EmStock = produto.EmStock > 0 ? true : false;
+        Encomenda.Paga = false;
+
+        Encomenda.Preco = produto.Preco * Encomenda.Quantidade;
+        
+        context.Encomendas.Add(Encomenda);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/encomenda");
+    }
+
+    private string findIDByEmail()
+    {
+        using var context = DbFactory.CreateDbContext();
+        var user = context.Users.FirstOrDefault(u => u.Email == TempEmail);
+        if(user != null)
+        {
+            return user.Id;
+        }
+
+        return null;
+    }
+}

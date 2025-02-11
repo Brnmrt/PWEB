@@ -1,0 +1,188 @@
+﻿@page "/manageusers/edit"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")] 
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+@inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@rendermode InteractiveServer
+
+<PageTitle>Editar</PageTitle>
+
+<h1>Editar este registo</h1>
+
+<h2>Utilizador</h2>
+<hr />
+@if (applicationUser is null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="applicationUser" OnValidSubmit="UpdateUser" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+                <input type="hidden" name="applicationUser.Id" value="@applicationUser.Id" />
+                <div class="mb-3">
+                    <label for="produtoid" class="form-label">Nome:</label>
+                    <InputText id="produtoid" @bind-Value="applicationUser.Nome" class="form-control" readonly />
+                    <ValidationMessage For="() => applicationUser.Nome" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="produtoid" class="form-label">Email:</label>
+                    <InputText id="produtoid" @bind-Value="applicationUser.Email" class="form-control" readonly />
+                    <ValidationMessage For="() => applicationUser.Email" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="role" class="form-label">Role Atual:</label>
+                    <InputSelect id="role" class="form-group" @bind-Value="selectedRole">
+                        <option value="">Anonimo</option>
+                        @foreach (var role in allRoles)
+                        {
+                            <option value="@role">@role</option>
+                        }
+                    </InputSelect>
+                </div>
+
+                <div class="mb-3"> 
+                    <label for="estado" class="form-label">Estado Atual:</label>
+                    <InputSelect id="estado" class="form-group" @bind-Value="applicationUser.Estado">
+                        <option value="">Selecionar um estado</option>
+                        @foreach (var estado in estados)
+                        {
+                            <option value="@estado">@estado</option>
+                        }
+                    </InputSelect>
+                    <ValidationMessage For="() => applicationUser.Estado" class="text-danger" />
+                </div>
+                <button type="submit" class="btn btn-primary"><img title="Gravar" src="/img/saveicon.png" style="height:30px" /></button>
+                <a href="/manageusers" type="button" class="btn btn-outline-secondary"><img title="Recuar" src="/img/backicon.png" style="height:30px" /></a>
+            </EditForm>
+        </div>
+    </div>
+}
+
+
+@code {
+    [SupplyParameterFromQuery]
+    public string Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public ApplicationUser? applicationUser { get; set; }
+
+    private List<string> allRoles = new();
+    private string selectedRole;
+
+    public static string? roleActual;
+
+    private static List<string> estados = new() { "Pendente", "Activo" };
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var loggedInUser = await UserManager.GetUserAsync(authState.User);
+        var loggedInUserId = loggedInUser?.Id;
+
+        if (Id == loggedInUserId)
+        {
+            NavigationManager.NavigateTo("/manageusers");
+            return;
+        }
+        // Fetch the user using UserManager
+        applicationUser = await UserManager.FindByIdAsync(Id);
+
+        if (applicationUser is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+            return;
+        }
+
+        using var context = DbFactory.CreateDbContext();
+
+   
+        // Obtem o NOME do role atual
+        roleActual = await context.UserRoles
+            .Where(ur => ur.UserId == applicationUser.Id)
+            .Join(context.Roles, ur => ur.RoleId, r => r.Id, (ur, r) => r.Name)
+            .FirstOrDefaultAsync();
+
+
+        
+
+        
+        selectedRole = roleActual ?? string.Empty;
+
+        // Check the logged-in user's role
+        var loggedInUserRole = await context.UserRoles
+            .Where(ur => ur.UserId == loggedInUserId)
+            .Join(context.Roles, ur => ur.RoleId, r => r.Id, (ur, r) => r.Name)
+            .FirstOrDefaultAsync();
+
+        // Redirect if conditions are met
+        if (loggedInUserRole == "Funcionario" && (roleActual == "Funcionario" || roleActual == "Administrador"))
+        {
+            NavigationManager.NavigateTo("/manageusers");
+            return;
+        }
+
+        if(loggedInUserRole == "Funcionario"){
+            allRoles = await context.Roles.Select(r => r.Name).Where(r => r != "Administrador" && r != "Funcionario").ToListAsync();
+        }
+        else
+            allRoles = await context.Roles.Select(r => r.Name).ToListAsync();
+    }
+
+    private async Task UpdateUser()
+{
+    using var context = DbFactory.CreateDbContext();
+
+    
+    
+    var userToUpdate = await UserManager.FindByIdAsync(applicationUser.Id);
+    if (userToUpdate == null)
+    {
+        NavigationManager.NavigateTo("notfound");
+        return;
+    }
+
+    // Se isto for a null, o programa morre, para alem disso, nada é feito se o role for o mesmo
+    if (!string.IsNullOrEmpty(roleActual) && selectedRole != roleActual)
+    {
+        await UserManager.RemoveFromRoleAsync(userToUpdate, roleActual);
+    }
+
+    
+    if (!string.IsNullOrEmpty(selectedRole) && selectedRole != roleActual)
+    {
+        await UserManager.AddToRoleAsync(userToUpdate, selectedRole);
+    }
+
+    // Guarda as outras coisas alteradas
+    userToUpdate.Email = applicationUser.Email; 
+    userToUpdate.Nome = applicationUser.Nome;
+    userToUpdate.Estado = applicationUser.Estado;
+    var updateResult = await UserManager.UpdateAsync(userToUpdate);
+    if (!updateResult.Succeeded)
+    {
+        // Handle errors (e.g., display a validation message)
+        throw new Exception("Failed to update user");
+    }
+
+    NavigationManager.NavigateTo("/manageusers");
+}
+
+    private bool UserExists(string id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Users.Any(e => e.Id == id);
+    }
+}

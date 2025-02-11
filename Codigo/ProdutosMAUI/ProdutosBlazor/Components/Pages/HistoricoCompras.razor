@@ -1,0 +1,106 @@
+﻿@page "/historicocompras"
+@using RCLAPI.Services
+@using RCLAPI.DTO
+@inject IApiServices ApiService
+@inject NavigationManager NavigationManager
+@using Microsoft.AspNetCore.Components.QuickGrid
+
+
+
+
+<h3>Histórico de Compras</h3>
+
+@if (!isLoggedIn)
+{
+    <p>Redirecionando para a página principal...</p>
+}
+else if (encomendas == null)
+{
+    <p>Carregando...</p>
+}
+else if (encomendas.Count == 0)
+{
+    <p>Nenhuma encomenda encontrada.</p>
+}
+else
+{
+    <QuickGrid Items="encomendas.AsQueryable()" Pagination="@pagination" Class="grid">
+        <PropertyColumn Property="@(e => e.Id)" Title="ID" Sortable="true" />
+        
+        <PropertyColumn Property="@(e => e.Quantidade)" Title="Quantidade" Sortable="true" />
+        <PropertyColumn Property="@(e => e.Preco)" Title="Preço" Format="C2"  Sortable="true" />
+        <PropertyColumn Property="@(e => e.Estado)" Title="Estado" Sortable="true" />
+        <PropertyColumn Property="@(e => e.DataCriacao)" Title="Data de Criação" Format="dd/MM/yyyy" Sortable="true" />
+        <PropertyColumn Property="@(e => e.DataFinalizacao)" Title="Data de Finalização" Format="dd/MM/yyyy" Sortable="true" />
+        <TemplateColumn Title="">
+        <div>
+            
+                @if (!context.EmStock)
+                {
+                    <span>Atualmente não temos stock, iremos enviar a encomenda assim que possível</span>
+                }
+            
+        </div>
+    </TemplateColumn>
+        <TemplateColumn Title="Pagamento">
+        <div>
+
+                @if (!context.Paga)
+                {
+                    if (context.Estado != "Rejeitada")
+                    {
+                        <a href="@($"/pagaencomendas?EncomendaIdsString={context.Id}")" class="btn btn-primary">
+                            Pagar Encomenda
+                        </a>
+                    }
+                    else
+                    {
+                        <span>Encomenda Rejeitada</span>
+                    }
+                }
+                else 
+                {
+                    <span>Encomenda Paga</span>
+                }
+                </div>
+    </TemplateColumn>
+    </QuickGrid>
+
+    <Paginator State="@pagination" />
+
+    <div class="pagination-controls">
+        <label for="itemsPerPage">Itens por página:</label>
+        <select id="itemsPerPage" @bind="pagination.ItemsPerPage">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+        </select>
+    </div>
+}
+
+@code {
+    private List<EncomendaDTO> encomendas;
+    private PaginationState pagination = new PaginationState { ItemsPerPage = 5 };
+    private bool isLoggedIn = false;
+    private string userId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        
+        isLoggedIn = await ApiService.IsUserLoggedIn();
+
+        if (!isLoggedIn)
+        {
+            
+            NavigationManager.NavigateTo("/modalogin");
+            return;
+        }
+
+        
+        userId = await ApiService.GetUserId();
+
+        
+        encomendas = await ApiService.GetEncomendasByUser();
+    }
+    
+}

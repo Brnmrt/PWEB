@@ -1,0 +1,69 @@
+﻿@page "/classificacoes/details"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Detalhes</PageTitle>
+
+<h1>Detalhes do registo!</h1>
+
+<div>
+    <h4>Classificacao</h4>
+    <hr />
+    @if (classificacao is null)
+    {
+        <p><em>Carregando...</em></p>
+    }
+    else
+    {
+        <dl class="row">
+
+            <dd>
+                <div>
+                    @if (classificacao.Imagem is not null)
+                    {
+                        <img title="@classificacao.Nome" id="imagePreview" class="img-thumbnail  mt-2" src="data:image/*;base64,@(Convert.ToBase64String(classificacao.Imagem))" style="width:200px">
+                    }
+                    else
+                    {
+                        <img id="imagePreview" class="img-thumbnail mt-2" src="img/noproductstrans.png" style="width:50%;">
+                    }
+                </div>
+            </dd>
+
+            <dt class="col-sm-2">Nome</dt>
+            <dd class="col-sm-10">@classificacao.Nome</dd>
+
+            <dt class="col-sm-2">Ordem</dt>
+            <dd class="col-sm-10">@classificacao.Ordem</dd>
+        </dl>
+        <div>
+            <a href="@($"/classificacoes/edit?id={classificacao.Id}")"><img title="Editar" src="/img/editicon.png" style="height:30px" /></a> |
+            <a href="/classificacoes" type="button" class="btn btn-outline-secondary"><img title="Recuar" src="/img/backicon.png" style="height:30px" /></a>
+        </div>
+    }
+</div>
+
+@code {
+    Classificacao? classificacao;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        classificacao = await context.Classificacoes.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (classificacao is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

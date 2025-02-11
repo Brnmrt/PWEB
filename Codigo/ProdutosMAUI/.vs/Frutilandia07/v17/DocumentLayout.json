@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E81B9FDF-7002-4F22-9B11-B4B674A8DF10}|..\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\CRUDBlazor.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\crudblazor_gerefrutilandia_05092024_v0.2\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E81B9FDF-7002-4F22-9B11-B4B674A8DF10}|..\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\CRUDBlazor.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\crudblazor_gerefrutilandia_05092024_v0.2\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\rclprodutos\\shared\\slider\\slidecomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidecomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\rclprodutos\\shared\\slider\\slidecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\rclprodutos\\shared\\cards\\cardcomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cards\\cardcomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\rclprodutos\\shared\\cards\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cards\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\rclprodutos\\shared\\cards\\cardscarousel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cards\\cardscarousel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RclShared\\RclShared.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\rclshared\\shared\\headercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RclShared\\RclShared.csproj|solutionrelative:rclshared\\shared\\headercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE29823-05DA-47E7-B7AF-B897A4E3DB51}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\produtosmaui\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FE29823-05DA-47E7-B7AF-B897A4E3DB51}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1B72F0-26C6-40A9-AA94-25DC43B15E81}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\produtosblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1B72F0-26C6-40A9-AA94-25DC43B15E81}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RclShared\\RclShared.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.7\\rclshared\\shared\\btncategorias.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RclShared\\RclShared.csproj|solutionrelative:rclshared\\shared\\btncategorias.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SlideComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA+wC0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T12:16:03.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CardComponent.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Cards\\CardComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Cards\\CardComponent.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Cards\\CardComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Cards\\CardComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T02:59:30.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CardComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Cards\\CardComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Cards\\CardComponent.razor.cs",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Cards\\CardComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Cards\\CardComponent.razor.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T02:59:42.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CardsCarousel.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Cards\\CardsCarousel.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Cards\\CardsCarousel.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Cards\\CardsCarousel.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Cards\\CardsCarousel.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T12:14:27.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SlideComponent.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T02:18:06.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "RelativeDocumentMoniker": "..\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "RelativeToolTip": "..\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T03:49:02.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "RelativeDocumentMoniker": "..\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "RelativeToolTip": "..\\CRUDBlazor_GEREFrutilandia_05092024_V0.2\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "ViewState": "AgIAAN8AAAAAAAC/Dr4awOMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T03:49:25.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\ProdutosBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Program.cs",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\ProdutosBlazor\\Program.cs",
+              "RelativeToolTip": "ProdutosBlazor\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T00:35:18.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\ProdutosMAUI\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\ProdutosMAUI\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T00:24:26.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HeaderComponent.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RclShared\\Shared\\HeaderComponent.razor",
+              "RelativeDocumentMoniker": "RclShared\\Shared\\HeaderComponent.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RclShared\\Shared\\HeaderComponent.razor",
+              "RelativeToolTip": "RclShared\\Shared\\HeaderComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T00:24:36.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BtnCategorias.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RclShared\\Shared\\BtnCategorias.razor",
+              "RelativeDocumentMoniker": "RclShared\\Shared\\BtnCategorias.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.7\\RclShared\\Shared\\BtnCategorias.razor",
+              "RelativeToolTip": "RclShared\\Shared\\BtnCategorias.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T13:28:16.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

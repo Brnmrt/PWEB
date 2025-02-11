@@ -1,0 +1,107 @@
+﻿@page "/carrinho"
+@using RCLProdutos.Services.Interfaces
+@using RCLProdutos.Services
+@using RCLProdutos.Shared
+@using RCLAPI.DTO
+@using RCLAPI.Services
+@using Microsoft.AspNetCore.Components.QuickGrid
+@inject ICarrinhoServices CarrinhoServices
+@inject IApiServices ApiService
+@inject NavigationManager NavigationManager
+
+
+<h3>Carrinho de Compras</h3>
+
+@if (itensCarrinho == null)
+{
+    <p>Carregando...</p>
+}
+else if (itensCarrinho.Count == 0)
+{
+    <p>Seu carrinho está vazio.</p>
+}
+else
+{
+    <QuickGrid Items="itensCarrinho.AsQueryable()" Class="table">
+        <PropertyColumn Property="@(item => item.ProdutoId)" Title="Produto" />
+        <PropertyColumn Property="@(item => item.Quantidade)" Title="Quantidade" />
+        <PropertyColumn Property="@(item => item.PrecoUnitario)" Format="C2" Title="Preço Unitário" />
+        <PropertyColumn Property="@(item => item.ValorTotal)" Format="C2"  Title="Total" />
+        <TemplateColumn>
+            <button class="btn btn-danger" @onclick="() => RemoverItem(context)">Remover</button>
+        </TemplateColumn>
+    </QuickGrid>
+
+    <div class="text-right mt-3">
+        <h4>Total do Carrinho: @totalCarrinho.ToString("C")</h4>
+        <button class="btn btn-primary" @onclick="FinalizarCompra">Finalizar Compra</button>
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(mensagemErro))
+{
+    <div class="alert alert-danger mt-3">
+        @mensagemErro
+    </div>
+}
+
+@code {
+    private List<ItemCarrinhoCompra> itensCarrinho;
+    private decimal totalCarrinho;
+    private string mensagemErro;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CarregarCarrinho();
+    }
+
+    private async Task CarregarCarrinho()
+    {
+        itensCarrinho = CarrinhoServices.getItems();
+
+        // Calcular o total do carrinho
+        totalCarrinho = itensCarrinho.Sum(item => item.ValorTotal);
+    }
+
+    private async Task RemoverItem(ItemCarrinhoCompra item)
+    {
+        CarrinhoServices.RemoverItem(item.ProdutoId);
+        await CarregarCarrinho(); // Recarregar a lista após remover um item
+    }
+
+    private async void FinalizarCompra()
+    {
+        bool isLoggedIn = await ApiService.IsUserLoggedIn();
+
+        if (!isLoggedIn)
+        {
+            NavigationManager.NavigateTo("/modalogin");
+        }
+
+        string estado = await ApiService.GetUserEstado();
+        if(estado != "Activo")
+        {
+            mensagemErro = "A conta do utilizador não está ativa.";
+            StateHasChanged();
+            return;
+        }
+        DateTime antesEncomenda = DateTime.Now;
+
+        foreach(var item in itensCarrinho)
+		{
+			await ApiService.CriaEncomenda(item);
+            
+		}
+
+        // remover itens do carrinho
+        CarrinhoServices.LimparCarrinho();
+
+
+        List<EncomendaDTO> encomendas = await ApiService.GetEncomendasByUser();
+        List<EncomendaDTO> encomendasCriadas = encomendas.Where(e => e.DataCriacao >= antesEncomenda).ToList();
+
+        string encomendaIds = string.Join(",", encomendasCriadas.Select(e => e.Id));
+        
+        NavigationManager.NavigateTo($"/pagaencomendas?EncomendaIdsString={encomendaIds}");
+    }
+}

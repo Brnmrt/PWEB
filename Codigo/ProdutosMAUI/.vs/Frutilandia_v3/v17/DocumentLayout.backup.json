@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\jorba\\source\\repos\\pweb2024\\versoesaulas\\ficha_08\u002B9\\frutilandiapweb_v3limpa\\produtosblazor\\components\\pages\\modallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\modallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\jorba\\source\\repos\\pweb2024\\versoesaulas\\ficha_08\u002B9\\frutilandiapweb_v3limpa\\rclcomum\\shared\\btnlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btnlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\jorba\\source\\repos\\pweb2024\\versoesaulas\\ficha_08\u002B9\\frutilandiapweb_v3limpa\\produtosblazor\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\jorba\\source\\repos\\pweb2024\\versoesaulas\\ficha_08\u002B9\\frutilandiapweb_v3limpa\\rclcomum\\shared\\headercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\headercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\jorba\\source\\repos\\pweb2024\\versoesaulas\\ficha_08\u002B9\\frutilandiapweb_v3limpa\\produtosblazor\\components\\pages\\carrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\carrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\jorba\\source\\repos\\pweb2024\\versoesaulas\\ficha_08\u002B9\\frutilandiapweb_v3limpa\\produtosblazor\\components\\pages\\favoritos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\favoritos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 133,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Favoritos.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\ProdutosBlazor\\Components\\Pages\\Favoritos.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\Favoritos.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\ProdutosBlazor\\Components\\Pages\\Favoritos.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\Favoritos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T01:26:46.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HeaderComponent.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\RCLComum\\Shared\\HeaderComponent.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\HeaderComponent.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\RCLComum\\Shared\\HeaderComponent.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\HeaderComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T00:52:38.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Carrinho.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\ProdutosBlazor\\Components\\Pages\\Carrinho.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\Carrinho.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\ProdutosBlazor\\Components\\Pages\\Carrinho.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\Carrinho.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T01:26:05.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\ProdutosBlazor\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\ProdutosBlazor\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T02:03:58.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModalLogin.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\ProdutosBlazor\\Components\\Pages\\ModalLogin.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\ModalLogin.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\ProdutosBlazor\\Components\\Pages\\ModalLogin.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\ModalLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T02:04:05.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BtnLogin.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\RCLComum\\Shared\\BtnLogin.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnLogin.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\PWeb2024\\VersoesAULAS\\Ficha_08\u002B9\\FrutilandiaPWeb_V3Limpa\\RCLComum\\Shared\\BtnLogin.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T01:25:31.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

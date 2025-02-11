@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.9.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.9.2\\rclapi\\dto\\tamanhosproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\tamanhosproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7407F93-32DA-4FCD-84ED-A8739D67D1D6}|CRUDBlazor\\CRUDBlazor.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.9.2\\crudblazor\\components\\pages\\tamanhosprodutopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7407F93-32DA-4FCD-84ED-A8739D67D1D6}|CRUDBlazor\\CRUDBlazor.csproj|solutionrelative:crudblazor\\components\\pages\\tamanhosprodutopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\aulasblazormaui_27082024_v0.9.2\\rclapi\\dto\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.9.2\\RCLAPI\\DTO\\Categoria.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\Categoria.cs",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.9.2\\RCLAPI\\DTO\\Categoria.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:16:47.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.9.2\\CRUDBlazor\\Components\\Pages\\TamanhosProdutoPages\\Edit.razor",
+              "RelativeDocumentMoniker": "CRUDBlazor\\Components\\Pages\\TamanhosProdutoPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.9.2\\CRUDBlazor\\Components\\Pages\\TamanhosProdutoPages\\Edit.razor",
+              "RelativeToolTip": "CRUDBlazor\\Components\\Pages\\TamanhosProdutoPages\\Edit.razor",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAC8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T19:20:58.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TamanhosProduto.cs",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.9.2\\RCLAPI\\DTO\\TamanhosProduto.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\TamanhosProduto.cs",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\AulasBlazorMAUI_27082024_v0.9.2\\RCLAPI\\DTO\\TamanhosProduto.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\TamanhosProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:21:18.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

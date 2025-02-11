@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\controllers\\encomendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\encomendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\repositories\\irepositories\\iencomendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\repositories\\irepositories\\iencomendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\repositories\\services\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\repositories\\services\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\repositories\\irepositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\repositories\\irepositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\repositories\\irepositories\\imarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\repositories\\irepositories\\imarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\repositories\\services\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\repositories\\services\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\repositories\\services\\encomendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\repositories\\services\\encomendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\controllers\\classificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\classificacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\danie\\desktop\\codigo\\restfulapi\\restfulapi\\entities\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC7B5F3-63D3-4A5C-9B13-72A638FFCBDB}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\entities\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\IRepositories\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Repositories\\IRepositories\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\IRepositories\\IProdutoRepository.cs",
+              "RelativeToolTip": "RESTfulAPI\\Repositories\\IRepositories\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:57:55.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMarcaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\IRepositories\\IMarcaRepository.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Repositories\\IRepositories\\IMarcaRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\IRepositories\\IMarcaRepository.cs",
+              "RelativeToolTip": "RESTfulAPI\\Repositories\\IRepositories\\IMarcaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:57:54.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MarcaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\Services\\MarcaRepository.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Repositories\\Services\\MarcaRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\Services\\MarcaRepository.cs",
+              "RelativeToolTip": "RESTfulAPI\\Repositories\\Services\\MarcaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:57:52.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UtilizadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\UtilizadoresController.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\UtilizadoresController.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\UtilizadoresController.cs",
+              "RelativeToolTip": "RESTfulAPI\\Controllers\\UtilizadoresController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwFcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:31:47.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "RESTfulAPI\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:30:25.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EncomendasController.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\EncomendasController.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\EncomendasController.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\EncomendasController.cs",
+              "RelativeToolTip": "RESTfulAPI\\Controllers\\EncomendasController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:49:35.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarcasController.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\MarcasController.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\MarcasController.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\MarcasController.cs",
+              "RelativeToolTip": "RESTfulAPI\\Controllers\\MarcasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T16:02:13.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\Services\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Repositories\\Services\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\Services\\ProdutoRepository.cs",
+              "RelativeToolTip": "RESTfulAPI\\Repositories\\Services\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:58:28.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEncomendaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\IRepositories\\IEncomendaRepository.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Repositories\\IRepositories\\IEncomendaRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\IRepositories\\IEncomendaRepository.cs",
+              "RelativeToolTip": "RESTfulAPI\\Repositories\\IRepositories\\IEncomendaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:59:41.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "RESTfulAPI\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:32:04.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClassificacoesController.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\ClassificacoesController.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\ClassificacoesController.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Controllers\\ClassificacoesController.cs",
+              "RelativeToolTip": "RESTfulAPI\\Controllers\\ClassificacoesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:32:02.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Encomenda.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Entities\\Encomenda.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Entities\\Encomenda.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Entities\\Encomenda.cs",
+              "RelativeToolTip": "RESTfulAPI\\Entities\\Encomenda.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:49:20.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EncomendaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\Services\\EncomendaRepository.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Repositories\\Services\\EncomendaRepository.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\RESTfulAPI\\RESTfulAPI\\Repositories\\Services\\EncomendaRepository.cs",
+              "RelativeToolTip": "RESTfulAPI\\Repositories\\Services\\EncomendaRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwDYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:49:08.373Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

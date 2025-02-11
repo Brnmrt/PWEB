@@ -1,0 +1,105 @@
+﻿@page "/manageusers/delete"
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@using Microsoft.AspNetCore.Identity
+@inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject UserManager<ApplicationUser> UserManager
+@rendermode InteractiveServer
+
+<PageTitle>Apagar</PageTitle>
+
+<h1>Apagar Registo</h1>
+
+<p>Tem a certeza de que quer apagar este registo?</p>
+<div>
+    <h2>Utilizador</h2>
+    <hr />
+    @if (applicationUser is null)
+    {
+        <p><em>Carregando...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">UserId</dt>
+            <dd class="col-sm-10">@applicationUser.Id</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Email</dt>
+            <dd class="col-sm-10">@applicationUser.Email</dd>
+        </dl>
+        
+        <dl class="row">
+            <dt class="col-sm-2">Role</dt>
+            <dd class="col-sm-10">@userRole</dd>
+        </dl>
+        <EditForm method="post" Model="applicationUser" OnValidSubmit="DeleteUtilizador" FormName="delete" Enhance>
+            <button type="submit" class="btn btn-danger" disabled="@(applicationUser is null)" onclick="return confirm('Tem a certeza que deseja apagar este registo?')"><img title="Apagar" src="/img/deleteicon.png" style="height:30px" /></button> ||
+            <a href="/manageusers" type="button" class="btn btn-outline-secondary"><img title="Recuar" src="/img/backicon.png" style="height:30px" /></a>
+        </EditForm>
+    }
+</div>
+
+@code {
+    private ApplicationUser? applicationUser;
+    private string? userRole;
+
+    [SupplyParameterFromQuery]
+    public string Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        applicationUser = await context.Users.FirstOrDefaultAsync(m => m.Id == Id);
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var loggedInUser = await UserManager.GetUserAsync(authState.User);
+        var loggedInUserId = loggedInUser?.Id;
+
+        if (Id == loggedInUserId)
+        {
+            NavigationManager.NavigateTo("/manageusers");
+            return;
+        }
+
+        if (applicationUser is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+
+        var roleActual = await context.UserRoles
+            .Where(ur => ur.UserId == applicationUser.Id)
+            .Join(context.Roles, ur => ur.RoleId, r => r.Id, (ur, r) => r.Name)
+            .FirstOrDefaultAsync();
+
+        var loggedInUserRole = await context.UserRoles
+            .Where(ur => ur.UserId == loggedInUserId)
+            .Join(context.Roles, ur => ur.RoleId, r => r.Id, (ur, r) => r.Name)
+            .FirstOrDefaultAsync();
+
+        
+        if (loggedInUserRole == "Funcionario" && (roleActual == "Funcionario" || roleActual == "Administrador"))
+        {
+            NavigationManager.NavigateTo("/manageusers");
+            return;
+        }
+
+
+        var userRoleId = await context.UserRoles.FirstOrDefaultAsync(m => m.UserId == Id);
+        userRole = await context.Roles.Where(r => r.Id == userRoleId.RoleId).Select(r => r.Name).FirstOrDefaultAsync();
+        
+
+    }
+
+    private async Task DeleteUtilizador()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Users.Remove(applicationUser);
+        
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/manageusers");
+    }
+}

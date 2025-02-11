@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\frutilandia_10092024_vaulas_1.1_exp\\rclprodutos\\shared\\slider\\slidercomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidercomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\frutilandia_10092024_vaulas_1.1_exp\\rclprodutos\\shared\\slider\\slidecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\frutilandia_10092024_vaulas_1.1_exp\\rclprodutos\\shared\\slider\\slidercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\frutilandia_10092024_vaulas_1.1_exp\\produtosblazor\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\jorba\\source\\repos\\aulas24\\frutilandia_10092024_vaulas_1.1_exp\\rclprodutos\\shared\\slider\\slidecomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidecomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SlideComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T11:44:27.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SliderComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAD4v0YAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T11:44:56.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\ProdutosBlazor\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\ProdutosBlazor\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T11:52:44.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SlideComponent.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T13:54:32.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SliderComponent.razor",
+              "DocumentMoniker": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor",
+              "ToolTip": "C:\\Users\\jorba\\source\\repos\\Aulas24\\Frutilandia_10092024_vAulas_1.1_exp\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T13:54:40.868Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

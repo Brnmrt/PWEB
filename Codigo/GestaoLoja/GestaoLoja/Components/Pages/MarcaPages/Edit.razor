@@ -1,0 +1,230 @@
+﻿@page "/marca/edit"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Editar</PageTitle>
+
+<h1>Editar registo</h1>
+
+<h4>Marca</h4>
+<hr />
+@if (marca is null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="marca" OnValidSubmit="UpdateCategoria" enctype="multipart/form-data" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+                <input type="hidden" name="marca.Id" value="@marca.Id" />
+
+                <div class="mb-3">
+
+                    <div>
+                        @if (marca.Imagem is not null)
+                        {
+                            <img title="Imagem Actual: @marca.UrlImagem" id="imagePreview" class="img-thumbnail  mt-2" src="data:image/*;base64,@(Convert.ToBase64String(marca.Imagem))" style="width:200px">
+                        }
+                        else
+                        {
+                            <img id="imagePreview" class="img-thumbnail mt-2" src="img/noproductstrans.png" style="width:200px;">
+                        }
+                    </div>
+
+                    <label for="nome" class="form-label">Marca:</label>
+                    <InputText id="nome" @bind-Value="marca.Nome" class="form-control" />
+                    <ValidationMessage For="() => marca.Nome" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="ordem" class="form-label">Ordem:</label>
+
+                    <InputNumber id="ordem" @bind-Value="marca.Ordem" class="form-control" />
+                    <ValidationMessage For="() => marca.Ordem" class="text-danger" />
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="imageUri" class="form-label">Nova Imagem:</label>
+                    <input id="imageUri"
+                           type="file"
+                           name="marca.ImageFile"
+                           class="form-control"
+                           accept=".png, .jpg, .jpeg"
+                           onchange="document.getElementById('imagePreview').src = window.URL.createObjectURL(this.files[0])" />
+                </div>
+
+                <button type="submit" class="btn btn-primary"><img title="Gravar" src="/img/saveicon.png" style="height:30px" /></button>
+                <a href="/marca" type="button" class="btn btn-outline-secondary"><img title="Recuar" src="/img/backicon.png" style="height:30px" /></a>
+            </EditForm>
+        </div>
+    </div>
+}
+
+
+@code {
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public Marca? marca { get; set; }
+
+    public static string? uriActual;
+
+    public static byte[]? imgActual { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+
+        marca ??= await context.Marcas
+        .FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (marca is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+
+        if (marca!.UrlImagem is not null)
+        {
+            uriActual = marca.UrlImagem;
+        }
+        if (marca!.Imagem is not null)
+        {
+            imgActual = marca.Imagem;
+        }
+
+    }
+
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more details, see https://aka.ms/RazorPagesCRUD.
+    public async Task UpdateCategoria()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Attach(marca!).State = EntityState.Modified;
+
+        try
+        {
+
+            if (marca.UrlImagem is null)
+                marca.UrlImagem = uriActual;
+
+            if (marca.Imagem is null)
+                marca.Imagem = imgActual;
+
+            if (marca.ImageFile != null)
+            {
+
+                if (marca.ImageFile.Length > (200 * 1024))
+                {
+                    NavigationManager.NavigateTo("/marca/edit");
+                }
+
+                if (!isValidFileType(marca.ImageFile.FileName))
+                {
+                    NavigationManager.NavigateTo("/marca/edit");
+                }
+                else marca.UrlImagem = marca.ImageFile.FileName;
+
+                //Apaga img existente
+                //           await deleteImage(produto.Id, produto.UrlImagem);
+
+                // using (var dataStream = new MemoryStream())
+                // {
+                //     await produto.ImageFile.CopyToAsync(dataStream);
+
+                // }
+
+                using (var dataStream = new MemoryStream())
+                {
+                    await marca.ImageFile.CopyToAsync(dataStream);
+                    marca.Imagem = dataStream.ToArray();
+                }
+
+            }
+
+            await context.SaveChangesAsync();
+
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!CategoriaExists(marca!.Id))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        NavigationManager.NavigateTo("/marca");
+    }
+
+    bool isValidFileType(string fileName)
+    {
+        string ext = Path.GetExtension(fileName);
+        switch (ext.ToLower())
+        {
+            case ".jpg":
+                return true;
+            case ".jpeg":
+                return true;
+            case ".png":
+                return true;
+            default:
+                return false;
+        }
+    }
+    bool isValidFileType(IFormFile file)
+    {
+        string ext = Path.GetExtension(file.Name);
+        switch (ext.ToLower())
+        {
+            case ".jpg":
+                return true;
+            case ".jpeg":
+                return true;
+            case ".png":
+                return true;
+            default:
+                return false;
+        }
+    }
+
+    bool CategoriaExists(int id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Marcas.Any(e => e.Id == id);
+    }
+
+    public async Task deleteImage(int id, string image)
+    {
+        using var context = DbFactory.CreateDbContext();
+        var curso = await context.Marcas.FirstOrDefaultAsync(m => m.Id == id);
+
+        string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Marcas/" + marca.Id + "/" + image);
+
+        try
+        {
+            System.IO.File.Delete(filePath);
+
+        }
+        catch (Exception ex)
+        {
+
+        }
+    }
+}
+
+

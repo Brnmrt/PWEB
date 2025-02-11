@@ -1,0 +1,168 @@
+﻿@page "/encomenda"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
+@rendermode InteractiveServer
+
+<PageTitle>Listagem</PageTitle>
+
+<h1>Listagem de Encomendas</h1>
+
+<p><a title="Novo registo!" href="encomenda/create"><img src="/img/novo.png" style="height:50px" /></a></p>
+
+<QuickGrid Class="table" Items="context.Encomendas" Pagination="@pagination">
+    <PropertyColumn Property="encomenda => encomenda.Id" Sortable="true" />
+    <PropertyColumn Title="Data Efetuada "Property="encomenda => encomenda.DataCriacao" Sortable="true" />
+    <TemplateColumn Title="Cliente" Context="encomenda" Sortable="true">
+        @getNomeClienteById(encomenda.UserId)
+    </TemplateColumn>
+    <TemplateColumn Title="Email" Context="encomenda" Sortable="true">
+        @getEmailClienteById(encomenda.UserId)
+    </TemplateColumn>
+    <TemplateColumn Title="Produto" Context="encomenda" Sortable="true">
+        @getNomeProdutoById(encomenda.ProdutoId)
+    </TemplateColumn>   
+
+    
+    <PropertyColumn Property="encomenda => encomenda.Quantidade" Sortable="true" />
+
+    <PropertyColumn Property="encomenda => encomenda.Preco" Sortable="true" />
+    <PropertyColumn Property="encomenda => encomenda.Estado" Sortable="true" />
+    <PropertyColumn Property="encomenda => encomenda.Paga" Sortable="true" />
+    <PropertyColumn Property="encomenda => encomenda.EmStock" Sortable="true" />
+    <TemplateColumn Title="Enviar Encomenda" Context="encomenda" Sortable="true">
+        
+        @if (!encomenda.Enviada && encomenda.Estado == "Aceite")
+        {
+            <button @onclick="() => ProcessaEncomenda(encomenda)" class="btn btn-success">Enviar</button>
+        }
+        else if (encomenda.Estado != "Aceite")
+        {
+            <span>Encomenda Rejeitada ou Pendente</span>
+        }
+        else
+        {
+            <span>Encomenda Já Enviada</span>
+        }
+    </TemplateColumn>
+
+    <TemplateColumn Title="Data Finalização" Context="encomenda">
+        @if (encomenda.Enviada)
+        {
+            <span>@encomenda.DataFinalizacao</span>
+        }
+        else 
+        {
+            <span>Encomenda não enviada</span>
+        }
+    </TemplateColumn>
+
+
+    <TemplateColumn Context="encomenda">
+        <a title="Editar" href="@($"encomenda/edit?id={encomenda.Id}")"><img title="Editar" src="/img/editicon.png" style="height:30px" /></a>
+        <a title="Apagar" href="@($"encomenda/delete?id={encomenda.Id}")"><img title="Apagar" src="/img/deleteicon.png" style="height:30px" /></a>
+    </TemplateColumn>
+</QuickGrid>
+
+@if (!string.IsNullOrEmpty(mensagemEnviada))
+{
+    <div class="alert alert-danger mt-3">
+        @mensagemEnviada
+    </div>
+}
+
+<div class="page-size-chooser">
+    Encomendas:
+    <select @bind="@pagination.ItemsPerPage">
+        <option>5</option>
+        <option>10</option>
+        <option>15</option>
+    </select>
+</div>
+<div class="card-footer"><Paginator State="@pagination" /></div>
+@code {
+
+    PaginationState pagination = new PaginationState { ItemsPerPage = 5 };
+
+    private ApplicationDbContext context = default!;
+    private string? mensagemEnviada;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+
+    private String getNomeProdutoById(int id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        Produto produto = context.Produtos.FirstOrDefault(m => m.Id == id);
+        return produto.Nome;
+    }
+
+    private String getNomeClienteById(string id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        ApplicationUser cliente = context.Users.FirstOrDefault(m => m.Id == id);
+        return cliente.UserName;
+    }
+
+    private String getEmailClienteById(string id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        ApplicationUser cliente = context.Users.FirstOrDefault(m => m.Id == id);
+        return cliente.Email;
+    }
+
+    
+
+    private async Task ProcessaEncomenda(Encomenda encomenda)
+    {
+        using var context = DbFactory.CreateDbContext();
+        Produto produto = await context.Produtos.FirstOrDefaultAsync(p => p.Id == encomenda.ProdutoId);
+        if (produto != null)
+        {
+            if (produto.EmStock >= encomenda.Quantidade)
+            {
+                produto.EmStock -= encomenda.Quantidade;
+                encomenda.Enviada = true;
+                encomenda.DataFinalizacao = DateTime.Now;
+
+                context.Attach(encomenda).State = EntityState.Modified;
+                context.Attach(produto).State = EntityState.Modified;
+
+
+                // Atualiza todas as outras encomendas para ver se têm stock
+                List<Encomenda> encomendas = await context.Encomendas.Where(e => e.ProdutoId == encomenda.ProdutoId && e.Id != encomenda.Id).ToListAsync();
+                foreach (var item in encomendas)
+                {
+                    if (produto.EmStock < item.Quantidade)
+                    {
+                        item.EmStock = false;
+                    }
+                }
+
+                await context.SaveChangesAsync();
+                mensagemEnviada = "Encomenda Enviada com Sucesso";
+            }
+            else
+            {
+                mensagemEnviada = "Stock Insuficiente";
+            }
+        }
+        else
+        {
+            mensagemEnviada = "Produto não existe";
+        }
+    }
+
+    
+}

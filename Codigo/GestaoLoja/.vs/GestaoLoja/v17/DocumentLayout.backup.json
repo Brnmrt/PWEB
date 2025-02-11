@@ -1,0 +1,437 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\encomendapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\encomendapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\encomendapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\encomendapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\encomendapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\encomendapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\utilizadorespages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\utilizadorespages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\utilizadorespages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\utilizadorespages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\utilizadorespages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\utilizadorespages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\entities\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\entities\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\entities\\classificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\entities\\classificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\classificacaopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\classificacaopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\classificacaopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\classificacaopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\classificacaopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\classificacaopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\classificacaopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\classificacaopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\encomendapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\encomendapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\encomendapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\encomendapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\marcapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\marcapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\marcapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\marcapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|c:\\users\\danie\\desktop\\codigo\\gestaoloja\\gestaoloja\\data\\migrations\\20250104153730_dbv16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82957F63-6AD1-4152-9507-A84B7F274E77}|GestaoLoja\\GestaoLoja.csproj|solutionrelative:gestaoloja\\data\\migrations\\20250104153730_dbv16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Classificacao.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Entities\\Classificacao.cs",
+              "RelativeDocumentMoniker": "GestaoLoja\\Entities\\Classificacao.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Entities\\Classificacao.cs",
+              "RelativeToolTip": "GestaoLoja\\Entities\\Classificacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:15:54.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T14:14:03.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Edit.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Edit.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Edit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T14:13:57.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Delete.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Delete.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Delete.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Delete.razor",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T14:13:53.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Delete.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Delete.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Delete.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Delete.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T01:07:37.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Encomenda.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Entities\\Encomenda.cs",
+              "RelativeDocumentMoniker": "GestaoLoja\\Entities\\Encomenda.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Entities\\Encomenda.cs",
+              "RelativeToolTip": "GestaoLoja\\Entities\\Encomenda.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:36:22.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Index.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Index.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Index.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Index.razor",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T15:33:07.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Details.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Details.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Details.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Details.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T15:42:17.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Index.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Index.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Index.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T15:46:14.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Edit.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Edit.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\UtilizadoresPages\\Edit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T15:56:39.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Edit.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Edit.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Edit.razor",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAADYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T15:38:59.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Details.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Details.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Details.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Details.razor",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T14:13:50.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T15:36:49.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250104153730_DBV16.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Data\\Migrations\\20250104153730_DBV16.cs",
+              "RelativeDocumentMoniker": "GestaoLoja\\Data\\Migrations\\20250104153730_DBV16.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Data\\Migrations\\20250104153730_DBV16.cs",
+              "RelativeToolTip": "GestaoLoja\\Data\\Migrations\\20250104153730_DBV16.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:37:30.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Index.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Index.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Index.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ClassificacaoPages\\Index.razor",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAADEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T16:13:12.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Inicializacao.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Data\\Inicializacao.cs",
+              "RelativeDocumentMoniker": "GestaoLoja\\Data\\Inicializacao.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Data\\Inicializacao.cs",
+              "RelativeToolTip": "GestaoLoja\\Data\\Inicializacao.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:45:25.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "GestaoLoja\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "GestaoLoja\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:36:18.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Create.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Create.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Create.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Create.razor",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAEwFAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T16:42:39.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Delete.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Delete.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\EncomendaPages\\Delete.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\EncomendaPages\\Delete.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T15:42:18.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\MarcaPages\\Create.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\MarcaPages\\Create.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\MarcaPages\\Create.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\MarcaPages\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T16:42:38.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Details.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T16:24:42.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Index.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T16:22:45.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\MarcaPages\\Index.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\MarcaPages\\Index.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\MarcaPages\\Index.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\MarcaPages\\Index.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T16:15:10.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Program.cs",
+              "RelativeDocumentMoniker": "GestaoLoja\\Program.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Program.cs",
+              "RelativeToolTip": "GestaoLoja\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T15:55:45.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\ProdutoPages\\Edit.razor",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAIsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T15:36:40.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
+              "RelativeDocumentMoniker": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\GestaoLoja\\GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
+              "RelativeToolTip": "GestaoLoja\\Components\\Pages\\CategoriaPages\\Edit.razor",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T15:36:28.125Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

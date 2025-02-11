@@ -1,0 +1,39 @@
+﻿
+@using RCLAPI
+@using RCLAPI.Services
+@inject IApiServices ApiService
+
+
+<div class="header-container">
+    <div class="header-main">
+        <div><span class="logo-span"><a class="logo-span" href="/">
+            @AppConfig.tituloHomePage</a></span></div>
+        <div class="nav-main">
+            <BtnCarrinho/>
+            <BtnHabituais/>
+            <BtnHistorico/>
+            <LocationComponent />
+        </div>
+         @if (IsLoggedIn)
+        {
+            <BtnLogout/>
+        }
+        else
+        {
+            <BtnLogin/>
+            <BtnRegister/>
+        }
+    </div>
+</div>
+
+@code {
+    private bool IsLoggedIn { get; set; } = false;
+    protected override async Task OnInitializedAsync()
+    {  
+        IsLoggedIn = await ApiService.IsUserLoggedIn();
+        
+        
+
+    }
+
+}

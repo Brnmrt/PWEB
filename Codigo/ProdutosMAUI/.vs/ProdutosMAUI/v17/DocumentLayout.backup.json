@@ -1,0 +1,1084 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\pages\\historicocompras.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\historicocompras.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\pages\\habituais.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\habituais.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\pages\\historicocompras.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\pages\\historicocompras.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\pages\\pagamento.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\pagamento.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\pages\\modallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\modallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\cards\\cardscarousel.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cards\\cardscarousel.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\produtosmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\produtosmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\slider\\slidercomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidercomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\pages\\pagamento.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\pages\\pagamento.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\slider\\indicadorescomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\indicadorescomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\slider\\slidercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\slider\\slidecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\services\\carrinhoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\services\\carrinhoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\services\\interfaces\\icarrinhoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\services\\interfaces\\icarrinhoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\services\\interfaces\\icardsutilsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\services\\interfaces\\icardsutilsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\btncarrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btncarrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\btnhabituais.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btnhabituais.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\btnhistorico.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btnhistorico.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\btnlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btnlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\btnlogout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btnlogout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\btnregister.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btnregister.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\headercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\headercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\locationcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\locationcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\shared\\navlogincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\navlogincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclcomum\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\services\\iapiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\services\\iapiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\services\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\services\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\pages\\carrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\pages\\carrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\pages\\habituais.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\pages\\habituais.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\pages\\modallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\pages\\modallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\pages\\carrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\carrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\cardproduto\\slideprodutocomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cardproduto\\slideprodutocomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\slider\\slidecomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidecomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\cardproduto\\slideprodutocomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cardproduto\\slideprodutocomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\cards\\cardscarousel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cards\\cardscarousel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclprodutos\\shared\\cards\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cards\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\rclapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\rclapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosblazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\dto\\itemcarrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\itemcarrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\produtosmaui\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B122A8B5-4D32-45D1-BE43-6E009B80901A}|ProdutosMAUI\\ProdutosMAUI.csproj|solutionrelative:produtosmaui\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\dto\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\dto\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\danie\\desktop\\codigo\\produtosmaui\\rclapi\\dto\\encomendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\encomendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:28:41.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardsCarousel.razor.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Cards\\CardsCarousel.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Cards\\CardsCarousel.razor.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Cards\\CardsCarousel.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Cards\\CardsCarousel.razor.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAD4vzQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:47:26.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SliderComponent.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:47:17.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appicon.svg",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Resources\\AppIcon\\appicon.svg",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Resources\\AppIcon\\appicon.svg",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Resources\\AppIcon\\appicon.svg",
+              "RelativeToolTip": "ProdutosMAUI\\Resources\\AppIcon\\appicon.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-05T15:34:13.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Routes.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:28:19.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModalLogin.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\ModalLogin.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\ModalLogin.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\ModalLogin.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\ModalLogin.razor",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T16:17:04.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pagamento.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\Pagamento.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\Pagamento.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\Pagamento.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\Pagamento.razor",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAIgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T16:28:45.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistoricoCompras.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\HistoricoCompras.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\HistoricoCompras.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\HistoricoCompras.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\HistoricoCompras.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T16:08:30.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HistoricoCompras.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\HistoricoCompras.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Pages\\HistoricoCompras.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\HistoricoCompras.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Pages\\HistoricoCompras.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBZwDUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:29:26.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Habituais.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\Habituais.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\Habituais.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\Habituais.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\Habituais.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T16:08:30.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Program.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Program.cs",
+              "RelativeToolTip": "ProdutosBlazor\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAACBjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:45:52.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SliderComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAWwFcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:42:26.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-05T13:55:23.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswEgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-05T13:55:29.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pagamento.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\Pagamento.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Pages\\Pagamento.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\Pagamento.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Pages\\Pagamento.razor",
+              "ViewState": "AgIAAJIAAAAAAAAAACBjwK4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:29:28.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:29:32.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProdutosMAUI.csproj",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\ProdutosMAUI.csproj",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\ProdutosMAUI.csproj",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\ProdutosMAUI.csproj",
+              "RelativeToolTip": "ProdutosMAUI\\ProdutosMAUI.csproj",
+              "ViewState": "AgIAACwAAAAAAAAAAEBlwEQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-05T00:28:07.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SlideComponent.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor",
+              "ViewState": "AgIAALQAAAAAAAAAAFB2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:47:06.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CarrinhoServices.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Services\\CarrinhoServices.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Services\\CarrinhoServices.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Services\\CarrinhoServices.cs",
+              "RelativeToolTip": "RCLProdutos\\Services\\CarrinhoServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T17:12:00.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICarrinhoServices.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Services\\Interfaces\\ICarrinhoServices.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Services\\Interfaces\\ICarrinhoServices.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Services\\Interfaces\\ICarrinhoServices.cs",
+              "RelativeToolTip": "RCLProdutos\\Services\\Interfaces\\ICarrinhoServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T17:11:44.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BtnHabituais.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnHabituais.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnHabituais.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnHabituais.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnHabituais.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T13:47:44.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BtnCarrinho.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnCarrinho.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnCarrinho.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnCarrinho.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnCarrinho.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T13:47:44.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICardsUtilsServices.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Services\\Interfaces\\ICardsUtilsServices.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Services\\Interfaces\\ICardsUtilsServices.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Services\\Interfaces\\ICardsUtilsServices.cs",
+              "RelativeToolTip": "RCLProdutos\\Services\\Interfaces\\ICardsUtilsServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T13:47:46.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IndicadoresComponent.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\IndicadoresComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\IndicadoresComponent.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\IndicadoresComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\IndicadoresComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:47:03.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BtnHistorico.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnHistorico.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnHistorico.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnHistorico.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnHistorico.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T13:47:43.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BtnLogin.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnLogin.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnLogin.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnLogin.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T13:47:39.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BtnLogout.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnLogout.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnLogout.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnLogout.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnLogout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T13:47:39.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BtnRegister.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnRegister.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnRegister.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\BtnRegister.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnRegister.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T13:47:37.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\_Imports.razor",
+              "RelativeDocumentMoniker": "RCLComum\\_Imports.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\_Imports.razor",
+              "RelativeToolTip": "RCLComum\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T13:47:30.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\Services\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\Services\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\Services\\ApiResponse.cs",
+              "RelativeToolTip": "RCLAPI\\Services\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T13:47:28.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Habituais.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\Habituais.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Pages\\Habituais.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\Habituais.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Pages\\Habituais.razor",
+              "ViewState": "AgIAACIAAAAAAAAAAHB4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:32:15.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Carrinho.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\Carrinho.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Pages\\Carrinho.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\Carrinho.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Pages\\Carrinho.razor",
+              "ViewState": "AgIAAFMAAAAAAAAAAHB4wAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:32:20.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NavLoginComponent.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\NavLoginComponent.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\NavLoginComponent.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\NavLoginComponent.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\NavLoginComponent.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAHB4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:53:10.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LocationComponent.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\LocationComponent.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\LocationComponent.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\LocationComponent.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\LocationComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:53:18.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HeaderComponent.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\HeaderComponent.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\HeaderComponent.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLComum\\Shared\\HeaderComponent.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\HeaderComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAOBvwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:53:06.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ModalLogin.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\ModalLogin.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Pages\\ModalLogin.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\ModalLogin.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Pages\\ModalLogin.razor",
+              "ViewState": "AgIAAC4AAAAAAAAAAIB5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:29:30.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegisterUser.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\RegisterUser.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Pages\\RegisterUser.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Pages\\RegisterUser.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Pages\\RegisterUser.razor",
+              "ViewState": "AgIAAGAAAAAAAAAAAIB5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:29:28.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\_Imports.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:29:12.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IApiServices.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\Services\\IApiServices.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\Services\\IApiServices.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\Services\\IApiServices.cs",
+              "RelativeToolTip": "RCLAPI\\Services\\IApiServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T16:21:28.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T16:08:29.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\Services\\ApiService.cs",
+              "RelativeToolTip": "RCLAPI\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMABAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T16:07:24.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Carrinho.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\Carrinho.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\Carrinho.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\Carrinho.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\Carrinho.razor",
+              "ViewState": "AgIAAEsAAAAAAAAAAIB5wAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T16:08:33.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterUser.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\RegisterUser.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Pages\\RegisterUser.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Pages\\RegisterUser.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Pages\\RegisterUser.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAIB5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T16:35:54.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\AppConfig.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\AppConfig.cs",
+              "RelativeToolTip": "RCLAPI\\AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T01:13:58.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SlideComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T01:19:03.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\wwwroot\\index.html",
+              "RelativeToolTip": "ProdutosMAUI\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-05T00:55:02.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SlideProdutoComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T01:19:06.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CardsCarousel.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Cards\\CardsCarousel.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Cards\\CardsCarousel.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Cards\\CardsCarousel.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Cards\\CardsCarousel.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:47:22.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SlideProdutoComponent.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAwwLQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:47:20.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CardComponent.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Cards\\CardComponent.razor",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Cards\\CardComponent.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLProdutos\\Shared\\Cards\\CardComponent.razor",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Cards\\CardComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:47:19.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\Routes.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:28:12.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\App.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\App.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T16:27:32.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RCLAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RclAPI\\RCLAPI.csproj",
+              "RelativeDocumentMoniker": "RclAPI\\RCLAPI.csproj",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RclAPI\\RCLAPI.csproj",
+              "RelativeToolTip": "RclAPI\\RCLAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-05T00:32:43.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosBlazor\\Components\\_Imports.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:09:00.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\MainPage.xaml",
+              "RelativeToolTip": "ProdutosMAUI\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-05T00:33:43.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ItemCarrinhoCompra.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\ItemCarrinhoCompra.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\ItemCarrinhoCompra.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\ItemCarrinhoCompra.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\ItemCarrinhoCompra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:37:26.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ProdutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\ProdutoDTO.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\ProdutoDTO.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\ProdutoDTO.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\ProdutoDTO.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAlwCcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:42:01.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\MauiProgram.cs",
+              "RelativeToolTip": "ProdutosMAUI\\MauiProgram.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:28:50.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ProdutosMAUI\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\ProdutosMAUI\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ProdutosMAUI\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T00:28:45.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\Token.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\Token.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\Token.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:45:22.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\Utilizador.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\Utilizador.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\Utilizador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T23:45:23.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\LoginModel.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\LoginModel.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T16:01:14.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EncomendaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\EncomendaDTO.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\EncomendaDTO.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Codigo\\ProdutosMAUI\\RCLAPI\\DTO\\EncomendaDTO.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\EncomendaDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T16:07:30.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

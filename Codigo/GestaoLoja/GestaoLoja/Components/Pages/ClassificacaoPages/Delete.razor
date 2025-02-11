@@ -1,0 +1,108 @@
+﻿@page "/classificacoes/delete"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+
+<PageTitle>Apagar</PageTitle>
+
+<h1>Apagar registo</h1>
+
+<h3>Tem a certeza de que quer apagar este registo?</h3>
+<div>
+    <h4>Classificacao</h4>
+    <hr />
+    @if (classificacao is null)
+    {
+        <p><em>Carregando...</em></p>
+    }
+    else
+    {
+        <dl class="row">
+            <dd>
+                <div>
+                    @if (classificacao.Imagem is not null)
+                    {
+                        <img title="@classificacao.Nome" id="imagePreview" class="img-thumbnail  mt-2" src="data:image/*;base64,@(Convert.ToBase64String(classificacao.Imagem))" style="width:100px">
+                    }
+                    else
+                    {
+                        <img id="imagePreview" class="img-thumbnail mt-2" src="img/noproductstrans.png" style="width:100px;">
+                    }
+                </div>
+            </dd>
+
+            <dt class="col-sm-2">Nome</dt>
+            <dd class="col-sm-10">@classificacao.Nome</dd>
+        </dl>
+
+        <dl class="row">
+            <dt class="col-sm-2">Ordem</dt>
+            <dd class="col-sm-10">@classificacao.Ordem</dd>
+        </dl>
+        <EditForm method="post" Model="classificacao" OnValidSubmit="DeleteClassificacao" FormName="delete" Enhance>
+            <button type="submit" class="btn btn-danger" disabled="@(classificacao is null)" onclick="return confirm('Tem a certeza que deseja apagar este registo?')"><img title="Apagar" src="/img/deleteicon.png" style="height:30px" /></button> |
+            <a href="/classificacoes" type="button" class="btn btn-outline-secondary"><img title="Recuar" src="/img/backicon.png" style="height:30px" /></a>
+        </EditForm>
+    }
+</div>
+
+@code {
+    Classificacao? classificacao;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        classificacao = await context.Classificacoes.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (classificacao is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+
+        Produto? produto = await context.Produtos.FirstOrDefaultAsync(m => m.ClassificacaoId == Id);
+        if (produto != null)
+        {
+            NavigationManager.NavigateTo("/classificacoes");
+        }
+    }
+
+    public async Task DeleteClassificacao()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Classificacoes.Remove(classificacao!);
+        await context.SaveChangesAsync();
+
+
+
+        await deleteImage(classificacao.Id, classificacao.UrlImagem);
+
+        NavigationManager.NavigateTo("/classificacoes");
+    }
+
+    public async Task deleteImage(int id, string image)
+    {
+        using var context = DbFactory.CreateDbContext();
+        var curso = await context.Produtos.FirstOrDefaultAsync(m => m.Id == id);
+
+        string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/classificacoes/" + classificacao.Id + "/" + image);
+
+        try
+        {
+            System.IO.File.Delete(filePath);
+        }
+        catch (Exception ex)
+        {
+
+        }
+    }
+}

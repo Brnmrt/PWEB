@@ -1,0 +1,153 @@
+﻿@page "/marca/create"
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Criar</PageTitle>
+
+<h1>Criar marca!</h1>
+
+<h4>Marca</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Marca" OnValidSubmit="AddMarca" enctype="multipart/form-data" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+
+            <div class="mb-3">
+
+                <div>
+                    @if (@Marca.Imagem != null && @Marca.Imagem.Length > 0)
+                    {
+                        <img title="@Marca.Nome" id="imCategoriaagePreview" class="img-thumbnail  mt-2" src="Produtos\@Marca.Imagem" style="width:100px;">
+                    }
+                    else
+                    {
+                        <img id="imagePreview" class="img-thumbnail mt-2" src="img/noproductstrans.png" style="width:100px;">
+                    }
+                </div>
+
+                <label for="nome" class="form-label">Nome:</label>
+                <InputText id="nome" @bind-Value="Marca.Nome" class="form-control" />
+                <ValidationMessage For="() => Marca.Nome" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="ordem" class="form-label">Ordem na visualização:</label>
+                <InputNumber id="ordem" @bind-Value="Marca.Ordem" class="form-control" />
+                <ValidationMessage For="() => Marca.Ordem" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="imageUri" class="form-label">Imagem:</label>
+                <input id="imageUri"
+                       type="file"
+                       name="Marca.ImageFile"
+                       class="form-control"
+                       accept=".png, .jpg, .jpeg"
+                       onchange="document.getElementById('imagePreview').src = window.URL.createObjectURL(this.files[0])" />
+            </div>
+
+            <button type="submit" class="btn btn-primary"><img title="Gravar" src="/img/saveicon.png" style="height:30px" /></button>
+            <a href="/marca" type="button" class="btn btn-outline-secondary"><img title="Recuar" src="/img/backicon.png" style="height:30px" /></a>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+
+    [SupplyParameterFromForm]
+    public Marca Marca { get; set; } = new();
+
+    // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+    public async Task AddMarca()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Marcas.Add(Marca);
+
+        try
+        {
+            if (Marca.ImageFile != null)
+            {
+                if (Marca.ImageFile.Length > (200 * 1024))
+                {
+                    NavigationManager.NavigateTo("/marca/edit");
+                }
+
+                if (!isValidFileType(Marca.ImageFile.FileName))
+                {
+                    NavigationManager.NavigateTo("/marca/edit");
+                }
+                else Marca.UrlImagem = Marca.ImageFile.FileName;
+
+                //Apaga img existente
+                //           await deleteImage(produto.Id, produto.UrlImagem);
+
+                using (var dataStream = new MemoryStream())
+                {
+                    await Marca.ImageFile.CopyToAsync(dataStream);
+                    Marca.Imagem = dataStream.ToArray();
+                }
+            }
+
+            await context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!MarcaExists(Marca!.Id))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        NavigationManager.NavigateTo("/marca");
+    }
+
+    bool isValidFileType(string fileName)
+    {
+        string ext = Path.GetExtension(fileName);
+        switch (ext.ToLower())
+        {
+            case ".jpg":
+                return true;
+            case ".jpeg":
+                return true;
+            case ".png":
+                return true;
+            default:
+                return false;
+        }
+    }
+    bool isValidFileType(IFormFile file)
+    {
+        string ext = Path.GetExtension(file.Name);
+        switch (ext.ToLower())
+        {
+            case ".jpg":
+                return true;
+            case ".jpeg":
+                return true;
+            case ".png":
+                return true;
+            default:
+                return false;
+        }
+    }
+
+    bool MarcaExists(int id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Marcas.Any(e => e.Id == id);
+    }
+
+}

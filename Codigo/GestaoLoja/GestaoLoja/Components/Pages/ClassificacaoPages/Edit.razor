@@ -1,0 +1,230 @@
+﻿@page "/classificacoes/edit"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Editar</PageTitle>
+
+<h1>Editar registo</h1>
+
+<h4>Classificacao</h4>
+<hr />
+@if (classificacao is null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="classificacao" OnValidSubmit="UpdateCategoria" enctype="multipart/form-data" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+                <input type="hidden" name="classificacao.Id" value="@classificacao.Id" />
+
+                <div class="mb-3">
+
+                    <div>
+                        @if (classificacao.Imagem is not null)
+                        {
+                            <img title="Imagem Actual: @classificacao.UrlImagem" id="imagePreview" class="img-thumbnail  mt-2" src="data:image/*;base64,@(Convert.ToBase64String(classificacao.Imagem))" style="width:200px">
+                        }
+                        else
+                        {
+                            <img id="imagePreview" class="img-thumbnail mt-2" src="img/noproductstrans.png" style="width:200px;">
+                        }
+                    </div>
+
+                    <label for="nome" class="form-label">Categoria:</label>
+                    <InputText id="nome" @bind-Value="classificacao.Nome" class="form-control" />
+                    <ValidationMessage For="() => classificacao.Nome" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="ordem" class="form-label">Ordem:</label>
+
+                    <InputNumber id="ordem" @bind-Value="classificacao.Ordem" class="form-control" />
+                    <ValidationMessage For="() => classificacao.Ordem" class="text-danger" />
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="imageUri" class="form-label">Nova Imagem:</label>
+                    <input id="imageUri"
+                           type="file"
+                           name="classificacao.ImageFile"
+                           class="form-control"
+                           accept=".png, .jpg, .jpeg"
+                           onchange="document.getElementById('imagePreview').src = window.URL.createObjectURL(this.files[0])" />
+                </div>
+
+                <button type="submit" class="btn btn-primary"><img title="Gravar" src="/img/saveicon.png" style="height:30px" /></button>
+                <a href="/55" type="button" class="btn btn-outline-secondary"><img title="Recuar" src="/img/backicon.png" style="height:30px" /></a>
+            </EditForm>
+        </div>
+    </div>
+}
+
+
+@code {
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public Classificacao? classificacao { get; set; }
+
+    public static string? uriActual;
+
+    public static byte[]? imgActual { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+
+        classificacao ??= await context.Classificacoes
+        .FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (classificacao is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+
+        if (classificacao!.UrlImagem is not null)
+        {
+            uriActual = classificacao.UrlImagem;
+        }
+        if (classificacao!.Imagem is not null)
+        {
+            imgActual = classificacao.Imagem;
+        }
+
+    }
+
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more details, see https://aka.ms/RazorPagesCRUD.
+    public async Task UpdateCategoria()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Attach(classificacao!).State = EntityState.Modified;
+
+        try
+        {
+
+            if (classificacao.UrlImagem is null)
+                classificacao.UrlImagem = uriActual;
+
+            if (classificacao.Imagem is null)
+                classificacao.Imagem = imgActual;
+
+            if (classificacao.ImageFile != null)
+            {
+
+                if (classificacao.ImageFile.Length > (200 * 1024))
+                {
+                    NavigationManager.NavigateTo("/classificacoes/edit");
+                }
+
+                if (!isValidFileType(classificacao.ImageFile.FileName))
+                {
+                    NavigationManager.NavigateTo("/classificacoes/edit");
+                }
+                else classificacao.UrlImagem = classificacao.ImageFile.FileName;
+
+                //Apaga img existente
+                //           await deleteImage(produto.Id, produto.UrlImagem);
+
+                // using (var dataStream = new MemoryStream())
+                // {
+                //     await produto.ImageFile.CopyToAsync(dataStream);
+
+                // }
+
+                using (var dataStream = new MemoryStream())
+                {
+                    await classificacao.ImageFile.CopyToAsync(dataStream);
+                    classificacao.Imagem = dataStream.ToArray();
+                }
+
+            }
+
+            await context.SaveChangesAsync();
+
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!CategoriaExists(classificacao!.Id))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        NavigationManager.NavigateTo("/classificacoes");
+    }
+
+    bool isValidFileType(string fileName)
+    {
+        string ext = Path.GetExtension(fileName);
+        switch (ext.ToLower())
+        {
+            case ".jpg":
+                return true;
+            case ".jpeg":
+                return true;
+            case ".png":
+                return true;
+            default:
+                return false;
+        }
+    }
+    bool isValidFileType(IFormFile file)
+    {
+        string ext = Path.GetExtension(file.Name);
+        switch (ext.ToLower())
+        {
+            case ".jpg":
+                return true;
+            case ".jpeg":
+                return true;
+            case ".png":
+                return true;
+            default:
+                return false;
+        }
+    }
+
+    bool CategoriaExists(int id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Categorias.Any(e => e.Id == id);
+    }
+
+    public async Task deleteImage(int id, string image)
+    {
+        using var context = DbFactory.CreateDbContext();
+        var curso = await context.Categorias.FirstOrDefaultAsync(m => m.Id == id);
+
+        string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Categorias/" + classificacao.Id + "/" + image);
+
+        try
+        {
+            System.IO.File.Delete(filePath);
+
+        }
+        catch (Exception ex)
+        {
+
+        }
+    }
+}
+
+

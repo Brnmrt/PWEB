@@ -1,0 +1,93 @@
+﻿@page "/manageusers"
+
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using GestaoLoja.Entities
+@using GestaoLoja.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
+@inject UserManager<ApplicationUser> UserManager
+@inject RoleManager<IdentityRole> RoleManager
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@rendermode InteractiveServer
+
+
+<PageTitle>Listagem</PageTitle>
+
+<h1>Listagem de Utilizadores</h1>
+<QuickGrid Class="table" Items="@users.AsQueryable()" Pagination="@pagination">
+    <PropertyColumn Property="user => user.Id" Title="ID" />
+    <PropertyColumn Property="user => user.Nome" Title="Nomevo" />
+    <PropertyColumn Property="user => user.Email" Title="Email" />
+    <PropertyColumn Property="user => userRoles[user.Id].FirstOrDefault()" Title="Role" />
+    <PropertyColumn Property="user => user.Estado" Title="Email" />
+    <TemplateColumn Title="Actions" Context="user">
+        <a title="Editar" href="@($"manageusers/edit?id={user.Id}")"><img title="Editar" src="/img/editicon.png" style="height:30px" /></a>
+        <a title="Delete" href="@($"manageusers/delete?id={user.Id}")"><img title="Editar" src="/img/deleteicon.png" style="height:30px" /></a>
+    </TemplateColumn>
+</QuickGrid>
+
+<div class="page-size-chooser">
+    Utilizadores:
+    <select @bind="@pagination.ItemsPerPage">
+        <option>10</option>
+        <option>25</option>
+        <option>50</option>
+        <option>100</option>
+        
+    </select>
+</div>
+<div class="card-footer"><Paginator State="@pagination" /></div>
+
+@code {
+
+    PaginationState pagination = new PaginationState { ItemsPerPage = 10 };
+
+    private ApplicationDbContext context = default!;
+    private List<IdentityRole> roles = new();
+    private Dictionary<string, List<string>> userRoles = new();
+    private ICollection<ApplicationUser> users = new List<ApplicationUser>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        context = DbFactory.CreateDbContext();
+
+        users = await context.Users.ToListAsync();
+        roles = await context.Roles.ToListAsync();
+
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var loggedInUser = await UserManager.GetUserAsync(authState.User);
+        var loggedInUserId = loggedInUser?.Id;
+      
+        foreach (var user in users)
+        {
+            var userRolesList = await UserManager.GetRolesAsync(user);
+            userRoles[user.Id] = userRolesList.ToList();
+        }
+
+        var roleLoggedInUser = userRoles[loggedInUserId].FirstOrDefault();
+
+        if(roleLoggedInUser == "Funcionario")
+		{
+            users = users
+            .Where(user => !userRoles[user.Id].Contains("Administrador") &&
+                           !userRoles[user.Id].Contains("Funcionario"))
+            .ToList();
+		}
+
+    }
+
+   
+
+    public async ValueTask DisposeAsync()
+    {
+        if (context != null)
+        {
+            await context.DisposeAsync();
+        }
+    }
+}

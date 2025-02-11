@@ -1,0 +1,70 @@
+﻿@page "/encomenda/delete"
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@using GestaoLoja.Entities
+@inject IDbContextFactory<GestaoLoja.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Apagar</PageTitle>
+
+<h1>Apagar Registo</h1>
+
+<p>Tem a certeza de que quer apagar este registo?</p>
+<div>
+    <h2>Encomenda</h2>
+    <hr />
+    @if (encomenda is null)
+    {
+        <p><em>Carregando...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">UserId</dt>
+            <dd class="col-sm-10">@encomenda.UserId</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">ProdutoId</dt>
+            <dd class="col-sm-10">@encomenda.ProdutoId</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Quantidade</dt>
+            <dd class="col-sm-10">@encomenda.Quantidade</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Enviada</dt>
+            <dd class="col-sm-10">@encomenda.Enviada</dd>
+        </dl>
+        <EditForm method="post" Model="encomenda" OnValidSubmit="DeleteEncomenda" FormName="delete" Enhance>
+            <button type="submit" class="btn btn-danger" disabled="@(encomenda is null)" onclick="return confirm('Tem a certeza que deseja apagar este registo?')"><img title="Apagar" src="/img/deleteicon.png" style="height:30px" /></button> ||
+            <a href="/encomenda" type="button" class="btn btn-outline-secondary"><img title="Recuar" src="/img/backicon.png" style="height:30px" /></a>
+        </EditForm>
+    }
+</div>
+
+@code {
+    private Encomenda? encomenda;
+
+    [SupplyParameterFromQuery]
+    private int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        encomenda = await context.Encomendas.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (encomenda is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    private async Task DeleteEncomenda()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Encomendas.Remove(encomenda!);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/encomenda");
+    }
+}
